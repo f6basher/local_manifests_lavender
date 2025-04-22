@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Pix"    
+           fetch="https://github.com/pix106" />
+  
+  <remote  name="Germanium"
+           fetch="https://github.com/germaniumsculk" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+<!-- Kernel -->
+<project path="kernel/xiaomi/lavender" name="Aeoniixx/kernel_xiaomi_lavender-4.19" remote="github" clone-depth="1" revision="15.0" />
+
+<!-- Hardware -->
+<remove-project path="hardware/qcom-caf/sdm660/audio" />
+<remove-project path="hardware/qcom-caf/sdm660/display" />
+<remove-project path="hardware/qcom-caf/sdm660/media" />
+<project path="hardware/qcom-caf/sdm660/audio" name="Aeoniixx/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.0" />
+<project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="lineage-22.2-caf-sdm660" />
+<project path="hardware/qcom-caf/sdm660/media" name="Aeoniixx/android_hardware_qcom-caf_media" remote="github" revision="sdm660-4.19-12.2.1.r1" />
+<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
+  
+<!-- Device -->
+<project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="lineage-22.2-dynamic"/>
+<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="Germanium" clone-depth="1" revision="15-qpr2-dynamic" />
+
+<!-- Vendor -->
+<project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Pix"  clone-depth="1" revision="15-qpr2" />
+<project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="Pix" clone-depth="1" revision="15-qpr2" />
+  
+
+</manifest>
