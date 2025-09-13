@@ -20,7 +20,7 @@
 <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
   
 <!-- Device -->
-<project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="lineage-23.0"/>
+<project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="mist-4.x"/>
 <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="Germanium" clone-depth="1" revision="16" />
 
 <!-- Vendor -->
