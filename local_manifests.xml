@@ -8,24 +8,25 @@
            fetch="https://github.com/germaniumsculk" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/lavender" name="pix106/android_kernel_xiaomi_southwest-4.19" remote="github" clone-depth="1" revision="main" />
+<project path="kernel/xiaomi/lavender" name="germaniumsculk/android_kernel_xiaomi_southwest-4.19" remote="github" clone-depth="1" revision="main-fix" />
 
 <!-- Hardware -->
 <remove-project path="hardware/qcom-caf/sdm660/audio" />
 <remove-project path="hardware/qcom-caf/sdm660/display" />
 <remove-project path="hardware/qcom-caf/sdm660/media" />
+<remove-project path="hardware/lineage/compat" />
 <project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom-caf_media" remote="github" revision="lineage-23.0-caf-sdm660" />
+<project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="Germanium" revision="lineage-23.0" />
 <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
   
 <!-- Device -->
-<project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="mist-4.x"/>
+<project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="axion-2.x"/>
 <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="Germanium" clone-depth="1" revision="16" />
 
 <!-- Vendor -->
 <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Pix"  clone-depth="1" revision="16" />
 <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="Pix" clone-depth="1" revision="16" />
-  
 
 </manifest>
