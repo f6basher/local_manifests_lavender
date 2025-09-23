@@ -17,7 +17,7 @@
 <remove-project path="hardware/lineage/compat" />
 <project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="lineage-22.2-caf-sdm660" />
-<project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom-caf_media" remote="github" revision="lineage-22.2-caf-sdm660" />
+<project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="Germanium" revision="lineage-23.0" />
 <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
   
