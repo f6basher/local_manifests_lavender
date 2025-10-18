@@ -14,6 +14,8 @@
 <remove-project path="hardware/qcom-caf/sdm660/audio" />
 <remove-project path="hardware/qcom-caf/sdm660/display" />
 <remove-project path="hardware/qcom-caf/sdm660/media" />
+<remove-project path="vendor/microg" />
+<project path="vendor/microg" name="vendor_microg" remote="Germanium" revision="sixteen" />
 <project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-22.2-caf-sdm660" />
