@@ -19,6 +19,7 @@
 <project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-22.2-caf-sdm660" />
+<project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="github" revision="sixteen" />
   
 <!-- Device -->
 <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="yaap-16.x"/>
