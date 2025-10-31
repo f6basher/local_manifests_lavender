@@ -15,6 +15,10 @@
 <remove-project path="hardware/qcom-caf/sdm660/display" />
 <remove-project path="hardware/qcom-caf/sdm660/media" />
 <remove-project path="vendor/microg" />
+<remove-project path="device/qcom/sepolicy_vndr/legacy-um" />
+<remove-project path="device/lineage/sepolicy" />
+<project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="Germanium" revision="sixteen" />
+<project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="Germanium" revision="sixteen" />
 <project path="vendor/microg" name="vendor_microg" remote="Germanium" revision="sixteen" />
 <project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.2-caf-sdm660" />
 <project path="hardware/qcom-caf/sdm660/display" name="pix106/android_hardware_qcom-caf_display" remote="github" revision="lineage-22.2-caf-sdm660" />
