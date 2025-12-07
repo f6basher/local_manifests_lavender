@@ -8,7 +8,7 @@
            fetch="https://github.com/germaniumsculk" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/lavender" name="germaniumsculk/android_kernel_xiaomi_southwest-4.19" remote="github" clone-depth="1" revision="main-fix" />
+<project path="kernel/xiaomi/sdm660" name="germaniumsculk/android_kernel_xiaomi_sdm660_southwest-ng" remote="github" clone-depth="1" revision="main-cip" />
 
 <!-- Hardware -->
 <remove-project path="hardware/qcom-caf/sdm660/audio" />
