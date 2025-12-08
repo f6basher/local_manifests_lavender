@@ -28,6 +28,5 @@
 <!-- Vendor -->
 <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="Pix"  clone-depth="1" revision="16" />
 <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="Pix" clone-depth="1" revision="16" />
-<project path="vendor/opensourcerequest" name="android_vendor_opensourcerequest" remote="Germanium" clone-depth="1" revision="lineage-23.1" />
 
 </manifest>
