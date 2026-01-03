@@ -1,3 +1,4 @@
-Local Manifest of Lavender...
+F6's Local Manifests for Lavender...
+
 To clone:
-git clone https://github.com/germaniumsculk/local_manifests_lavender .repo/local_manifests -b 14-aosp
+git clone https://github.com/f6basher/local_manifests_lavender .repo/local_manifests -b branch_name
