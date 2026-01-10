@@ -10,15 +10,27 @@
 <!-- Kernel -->
 <project path="kernel/xiaomi/sdm660" name="f6basher/android_kernel_xiaomi_sdm660_southwest-ng" remote="github" clone-depth="1" revision="main-cip" />
 
-<!-- Hardware -->
-<remove-project path="hardware/qcom-caf/sdm660/audio" />
+<!-- Remove Hardware -->
 <remove-project path="hardware/qcom-caf/sdm660/display" />
 <remove-project path="hardware/qcom-caf/sdm660/media" />
 <remove-project path="hardware/lineage/compat" />
 <remove-project path="hardware/qcom-caf/common" />
-<project path="hardware/qcom-caf/sdm660/audio" name="pix106/android_hardware_qcom-caf_audio" remote="github" revision="lineage-22.2-caf-sdm660" />
+<remove-project path="hardware/qcom-caf/sm8750" />
+<remove-project path="hardware/qcom-caf/sm8150" />
+<remove-project path="hardware/qcom-caf/sm8550" />
+<remove-project path="hardware/qcom-caf/sm8650" />
+<remove-project path="hardware/qcom-caf/sm8250" />
+<remove-project path="hardware/qcom-caf/sm8450" />
+<remove-project path="hardware/qcom-caf/sm8350" />
+<remove-project path="hardware/qcom-caf/msm8998" />
+<remove-project path="hardware/qcom-caf/msm8953" />
+<remove-project path="hardware/qcom-caf/msm8996" />
+<remove-project path="hardware/qcom-caf/sdm845" />
+
+<!-- Hardware -->
+<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="F6" revision="lineage-23.1-caf-msm8953" />
 <project path="hardware/qcom-caf/sdm660/display" name="f6basher/android_hardware_qcom-caf_display" remote="github" revision="16-caf-sdm660" />
-<project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-22.2-caf-sdm660" />
+<project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-23.1-caf-sdm660" />
 <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="F6" revision="lineage-23.1" />
 <project path="hardware/qcom-caf/common" name="f6basher/android_hardware_qcom-caf_common" remote="github" revision="lineage-23.0" />
 <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
